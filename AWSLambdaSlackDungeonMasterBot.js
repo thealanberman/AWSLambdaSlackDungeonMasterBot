@@ -1,5 +1,5 @@
 // This is the Slack Token generated when creating the slash command
-var token = "";
+var token = "YOUR_SLACK_TOKEN";
 var qs = require('querystring');
 
 exports.handler = function (event, context) {
