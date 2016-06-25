@@ -3,7 +3,7 @@ var token = "YOUR_SLACK_TOKEN";
 var qs = require('querystring');
 
 exports.handler = function (event, context) {
-    if (token !== null) {
+    if (token !== "YOUR_SLACK_TOKEN") {
         processEvent(event, context);
     } else {
         context.fail("Token has not been set.");
